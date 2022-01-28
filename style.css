@@ -1,0 +1,43 @@
+body{
+    background-color: #ffffb6;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;           
+    text-align: justify;
+    text-decoration-color: #23242c;
+    margin-left: 300px;
+    margin-right: 200px;
+    color: #0c1a85;
+    
+}
+#contorno-foto{
+    border-radius: 100%;
+    margin-left: 250px;     
+    
+}
+#meu-nome{
+    font-style: italic;
+    text-align: center;
+    color: #23242c;
+   
+}
+#indice{
+    color: #0c1a85;
+    text-align: center;
+}
+.lista-indice{
+    margin-left: 250px;
+}
+.lista-contato{
+    margin-left: 250px;
+}
+h3,h4{   
+    color: #23242c;    
+    font-style: italic;
+    text-align: center;
+}
+a{
+    color: #0c1a85;
+}
+p{
+    text-align: center;
+}
