@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,48 +8,83 @@
     <title>Quem sou eu?</title>
     <link rel="stylesheet" type="" href="style.css">
 </head>
+
 <body>
-    <img id="contorno-foto" src="minha-foto.png" alt="" width="300px"> 
-    <h1 id="meu-nome">Paulo Bruno Machado Dias</h1>
-    <h2 id="indice">ÍNDICE</h2>
-    <ol class="lista-indice">
-        <li> <a href="#item1">Resumo sobre minha carreira</a> </li>
-        <li><a href="#item2">Informações pessoais</a></li>
-        <li><a href="#item3">Minhas habilidades</a></li>
-        <li><a href="#item4">Curiosidades sobre mim</a></li>
-        <li><a href="#item5">Redes de contato</a></li>
-    </ol>
-    <h3>Resumo sobre minha carreira</h3>
-    <p id="item1"> Meu nome é <strong>Paulo Bruno Machado Dias</strong>, formado em engenharia civil na Puc-GO. Tenho especialização em MBA de Logística, Supply chain e Transportes. Atualmente, sou estudante de desenvolvimento web da Trybe e estou super animado em aprender sobre desenvolvimento back-end e front-end para me tornar um dev fullstack.</p>
-    <h3>Informações pessoais</h3>
-    <ul  id="item2">
-        <li>Sou brasileiro, nascido em Goiânia/GO</li>
-        <li>Idade: 29 anos</li>
-        <li>Resido em Palmas-Tocantins</li>
-    </ul> 
-    <h3>Minhas habilidades</h3> 
-    <ul  id="item3">
-        <li>Visão analítica:Adoro analisar situações para procurar soluções ou dar ideias sobre elas</li>
-        <li>Planejamento: Gosto de esquematizar o que deve ser feito para executar tarefas da melhor maneira possível</li>
-        <li>Criação: Gosto de criar coisas novas que sejam bem bonitas esteticamente e organizadas</li>
-    </ul>
-    <h3>Curiosidades sobre mim:</h3>
-    <ul id="item4">
-        <li>Praticar esportes, principalmente basquete, futebol e natação</li>
-        <li>Gosto de jogar videogames</li>
-        <li>Gosto de assistir animes e filmes de cinema</li>
-    </ul>
-    <h4>Redes de contato:</h4>
-    <ul  class="lista-contato" id="item5">
-        <li><a href="https://www.linkedin.com/in/paulobrunomachadodias/" target="_blank">Linkedin</a>
-        <img src="linkedin-logo.png" alt="" width="60px"></li>     
-        <br>   
-        <li><a href="https://slack.com/intl/pt-br/downloads/windows" target="_blank">Slack</a> 
-        <img src="slack-logo.png" alt="" width="60px"></li>
-        <br>
-        <li><a href="https://github.com/devpbdias" target="_blank">GitHub</a> 
-            <img src="github-logo.png" alt="" width="60px"></li>
-        
-    </ul>   
+    <header id="meu-nome">
+        <h2>Paulo Bruno Machado Dias</h2>
+    </header>
+    <nav id="menu">
+        <ol class="lista-indice">
+            <li><a href="#title1">Resumo sobre minha carreira</a> </li>
+            <li><a href="#title2">Informações pessoais</a></li>
+            <li><a href="#title3">Minhas habilidades</a></li>
+            <li><a href="#title4">Curiosidades sobre mim</a></li>
+            <li><a href="#title5">Redes de contato</a></li>
+        </ol>
+    </nav>
+    <article id="photo-resume">
+        <img id="contorno-foto" src="minha-foto.png" alt="" width="300px">
+        <section id="resume-container">
+            <h3 id="title1">Resumo sobre minha carreira</h3>
+            <p> Meu nome é <strong>Paulo Bruno </strong>, formado em engenharia civil na Puc-GO.
+                Tenho
+                especialização em MBA de Logística, Supply chain e Transportes. Atualmente, sou estudante de
+                desenvolvimento
+                web
+                da <strong>Trybe</strong> e estou super animado em aprender sobre desenvolvimento back-end e front-end
+                para me tornar um
+                dev
+                fullstack.</p>
+        </section>
+    </article>
+    <main id="main-container">
+        <section id="info-container">
+            <h3 id="title2">Informações pessoais</h3>
+            <ul id="item2">
+                <li>Sou brasileiro, nascido em Goiânia/GO</li>
+                <li>Idade: 29 anos</li>
+                <li>Resido em Palmas-Tocantins</li>
+            </ul>
+        </section>
+        <section id="skills-container">
+            <h3 id="title3">Minhas habilidades</h3>
+            <ul id="item3">
+                <li>Visão analítica:Adoro analisar situações para procurar soluções ou dar ideias sobre elas</li>
+                <li>Planejamento: Gosto de esquematizar o que deve ser feito para executar tarefas da melhor maneira
+                    possível
+                </li>
+                <li>Criação: Gosto de criar coisas novas que sejam bem bonitas esteticamente e organizadas</li>
+            </ul>
+        </section>
+        <section id="curiosities-container">
+            <h3 id="title4">Curiosidades sobre mim:</h3>
+            <ul id="item4">
+                <li>Praticar esportes, principalmente basquete, futebol e natação</li>
+                <li>Gosto de jogar videogames</li>
+                <li>Gosto de assistir animes e filmes de cinema</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer>
+        <h3 id="title5">Redes de contato:</h3>
+        <nav id="nav-contact">
+            <ul id="item5">
+                <li><a href="https://www.linkedin.com/in/paulobrunomachadodias/" target="_blank">Linkedin</a>
+                    <img src="linkedin-logo.png" alt="" width="60px">
+                </li>
+                <li><a href="https://slack.com/intl/pt-br/downloads/windows" target="_blank">Slack</a>
+                    <img src="slack-logo.png" alt="" width="60px">
+                </li>
+                <li><a href="https://github.com/devpbdias" target="_blank">GitHub</a>
+                    <img src="github-logo.png" alt="" width="60px">
+                </li>
+            </ul>
+        </nav>
+
+    </footer>
+
 </body>
+
 </html>
